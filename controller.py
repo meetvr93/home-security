@@ -6,9 +6,9 @@ import subprocess
 import smtplib
 from email.mime.text import MIMEText
 
-to = 'meetvora.r@gmail.com' # Email to send to
-gmail_user = 'meetvr123@gmail.com' # Email to send from (MUST BE GMAIL)
-gmail_password = 'Mclassic201!' # 16-digit Google App Password if using 2-Step Verification
+to = 'gmail id' # Email to send to
+gmail_user = 'gmail id' # Email to send from (MUST BE GMAIL)
+gmail_password = 'gmail password' # 16-digit Google App Password if using 2-Step Verification
 
 smtpserver = smtplib.SMTP('smtp.gmail.com', 587) # Server to use
 
